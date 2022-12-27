@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969020137402",
+    "project_id": "bendai",
+    "storage_bucket": "bendai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969020137402:android:87fe23233fbefe0a284783",
+        "android_client_info": {
+          "package_name": "com.example.exemplededatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969020137402-ct943roqcoosglfnos5cckn922hj07nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAqbaPEvBkD3NrY_3e4WvZbNvVY3Z3J5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969020137402-ct943roqcoosglfnos5cckn922hj07nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

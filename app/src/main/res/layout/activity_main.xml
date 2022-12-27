@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/font1"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageview"
+        android:src="@drawable/font2"
+        android:scaleType="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_below="@id/imageview"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="PASSWORD"
+        android:textStyle="italic"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repassword"
+        android:hint="CONFIRMER LE MOT DE PASS"
+        android:textStyle="italic"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/password"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ligne1"
+        android:orientation="vertical"
+        android:layout_below="@+id/repassword"
+        android:layout_marginVertical="32dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsign"
+            android:text="Create Count"
+            android:textAllCaps="false"
+            android:layout_below="@id/repassword"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textSize="25dp"
+            />
+    <ProgressBar
+        android:layout_width="24dp"
+        android:layout_height="64dp"
+        android:id="@+id/progress_bar"
+        android:layout_gravity="center"
+        android:visibility="gone"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/ligne1"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textStyle="bold"
+            android:id="@+id/login_text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
